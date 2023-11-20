@@ -1,0 +1,35 @@
+:root {
+
+}
+
+*{
+
+}
+
+/* header */
+header{
+    display: flex;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+}
+
+.menu{
+    max-width: 50px;
+}
+
+.account{
+    max-width: 50px;
+}
+
+/* end header styling */
+
+/* start styling RESERVEREN */
+.reserveren{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+}
