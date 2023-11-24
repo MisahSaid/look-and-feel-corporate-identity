@@ -8,12 +8,18 @@
 }
 
 *{
+    font-family: 'poppins' , sans-serif;
+}
 
+h1{
+    padding-left: 1em;
+    margin: 0;
 }
 
 /* header */
 header{
     display: flex;
+    padding: 1em;
 }
 
 .logo{
@@ -30,6 +36,24 @@ header{
     max-width: 50px;
 }
 
+ul {
+    padding: 1em;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 6em;
+    text-align: center;
+    padding-block: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.1em;
+}
+
+
 /* end header styling */
 
 /* start styling RESERVEREN */
@@ -37,4 +61,24 @@ header{
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+    margin: 1em;
+    padding: 0.5em;
+    
 }
+
+.reserveren, h2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 0;
+}
+
+.reserveren, img{
+    max-height: 300px;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
