@@ -1,4 +1,9 @@
 :root {
+    --background-color: #FBF6F0 ;
+    --box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+    --small-p: 14px;
+    --body-font:'avenir', sans-serif;
+    --title-font; 'poppins', sans-serif;
 
 }
 
